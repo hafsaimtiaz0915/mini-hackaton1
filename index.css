@@ -1,0 +1,166 @@
+.top_bar{
+    background-color:#eee ;
+    padding: 5px 50px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+.top_bar p{
+    font-size: smaller;
+    color: grey;
+    justify-content: space-between;
+    padding:0;
+    margin: 0;
+}
+#top_right{
+    float: right;
+}
+#top_left{
+    float: left;
+    margin: 0rem 1rem;
+}
+.nav-item.dropdown .dropdown-toggle::after {
+    content: none;
+  }
+  .container-fluid{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+}
+#explore-btn{
+    background-color: transparent;
+    color: grey;
+    border-color: gray;
+}
+#part3{
+    background-color: rgba(182,239,73,.2);
+    padding: 3rem 0rem;
+    margin: 3rem 7rem;
+    border-radius: 1rem;
+}
+#part3 button{
+    padding: 0.7rem;
+    margin: 0.2rem;
+}
+
+#doing{
+    margin: 1rem;
+    background-color:  rgba(182,239,73,.2);
+    border-radius: 1rem;
+}
+#doing p{
+    margin-top: 1rem;
+}
+
+.navbar-nav li{
+    margin: 0.5rem 2rem;
+}
+.navbar-collapse button{
+    border-color: transparent;
+    margin: 0;
+    color: white;
+}
+#donate{
+    background-color: #0d6db7;
+}
+#sponser{
+    background-color: #8dc63f;
+}
+#background-img1{
+    background-image: url(./backgroundimg/background\ 1.jpg);
+    background-repeat: no-repeat;
+    height: 20rem;
+    border-radius: 0.5rem;
+
+}
+#background-img2{
+    background-image: url(./backgroundimg/background\ 2.jpg);
+    background-repeat: no-repeat;
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+#background-img3{
+    background-image: url(./backgroundimg/background\ 3.jpg);
+    background-repeat: no-repeat;
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+.background{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    color: white;
+}
+.background button{
+    background-color: #8dc63f!important;
+    border-color: transparent;
+}
+.background p{
+    margin-top: 13.5rem !important;
+}
+footer{
+    color: white !important;
+    background-image: url(./footer\ background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.Guide{
+    margin: 3rem 30rem;
+    color: white;
+}
+.Guide button{
+background-color: white;
+color: black;
+margin-top: 0.5rem !important;
+margin-bottom: 1rem !important;
+
+}
+.Guide input{
+    background-color: transparent;
+    border-color: grey;
+    margin: 1rem 5rem!important ;
+}
+.say-guide{
+    background-color: #0d6db7;
+    margin: 1rem 7rem !important;
+}
+.lang-dropdown{
+    list-style: none;
+    background-color: white;
+    padding: 0.5rem 1rem;
+}
+.lang-dropdown li{
+    background-color:whitesmoke;
+    z-index: 1200;
+}
+.rec{
+   background-color: #6cb0e4;
+
+    margin: 3rem 7rem;
+    border-radius: 0.5rem;
+}
+/* CSS for screens with a maximum width of 768 pixels (mobile devices) */
+@media (max-width: 768px) {
+   *{
+    margin: 0 !important;
+   }
+   #doing{
+    margin: 1rem !important;
+    background-color:  rgba(182,239,73,.2);
+    border-radius: 1rem;
+}
+#doing p{
+    margin-top: 1rem !important;
+}
+#top_left{
+    margin: 0rem 1rem !important;
+}
+
+  }
+  
